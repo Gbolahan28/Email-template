@@ -1,0 +1,129 @@
+.container {
+    height: 100%;
+    position: absolute;
+}
+
+.sidebar {
+    /* float: left; */
+    width: 300px;
+    height: 100%;
+    background-color: #44a0b5;
+    position: relative;
+    left: 0;
+    top: 0;
+    
+}
+
+input, textarea, select {
+    width: 100%;
+}
+
+.main {
+    float: right;
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    padding-top: 20px;
+}
+
+.content {
+    padding: 50px 100px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.sitename {
+    text-align: center;
+}
+
+.sitename a {
+    text-decoration: none;
+    color: white;
+}
+
+.sitename a:hover {
+    color: lightgray;
+}
+
+ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    border-bottom: 1px solid white;
+    padding-left: 30px;
+    line-height: 60px;
+}
+
+ul li:first-child {
+    border-top: 1px solid white;
+}
+
+ul li:hover {
+    background-color: hotpink;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    line-height: 60px;
+}
+
+.active {
+    background-color: #307b8b;
+}
+
+.footer {
+    text-align: center;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Monserrat-light"
+}
+
+
+.select2-container--default .select2-selection--multiple {
+    border: 1px solid #ccc
+}
+#message {
+    height: 200px
+}
+#result,
+#log {
+    display: block;
+    margin-bottom: 20px;
+    background: #111;
+    color: #fff;
+    padding: 10px;
+    height: 400px;
+    overflow: auto
+}
